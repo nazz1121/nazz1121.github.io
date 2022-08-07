@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-}
+#div-0 { padding: 20px; }
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
+#div-1 { padding: 50px; }
+
+div {
+  /* other styling */
+  background-color: #ff7a59;
+  border-radius: 10px;
+  color: #2D3E50;
+  font-family: 'Avenir';
+	font-weight: bold;
+  margin: 20px;
+  display: inline-block;
   text-align: center;
+  
 }
-</style>
-</head>
-<body>
+body {background-color:white;}
 
-<div class="header">
-  <h1>Header</h1>
-</div>
+p {
+    color: rgb(56, 47, 44);
+    width: 1000px;
 
-</body>
-</html>
+  }
+  
