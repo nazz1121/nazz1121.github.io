@@ -12,6 +12,8 @@ div {
   margin: 20px;
   display: inline-block;
   text-align: center;
+    cursor: url('emoji.cur'), pointer;            
+ }
   
 }
 body {background-color:white;}
@@ -19,6 +21,6 @@ body {background-color:white;}
 p {
     color: rgb(56, 47, 44);
     width: 1000px;
-
-  }
+    text-align: left;
+}
   
