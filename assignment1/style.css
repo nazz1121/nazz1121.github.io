@@ -1,7 +1,25 @@
 #div-0 { padding: 20px; }
 
 #div-1 { padding: 50px; }
-
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
 div {
   background-color: #f1896f;
   border-radius: 10px;
