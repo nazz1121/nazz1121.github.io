@@ -3,10 +3,9 @@
 #div-1 { padding: 50px; }
 
 div {
-  /* other styling */
-  background-color: #ff7a59;
+  background-color: #f1896f;
   border-radius: 10px;
-  color: #2D3E50;
+  color: #3c1414;
   font-family: 'Avenir';
 	font-weight: bold;
   margin: 20px;
@@ -15,10 +14,10 @@ div {
     cursor: url('emoji.cur'), pointer;            
  }
   
-body {background-color:white;}
+body {background-color:burlywood;}
 
 p {
-    color: rgb(56, 47, 44);
+    color: #3c1414;
     width: 1000px;
     text-align: left;
 }
