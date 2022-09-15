@@ -1,0 +1,474 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="filter.js"></script>
+
+    <title>exercise 3</title>
+
+  </head>
+
+  <body>
+
+    <h1>Interactive Media 1 A2.3 Filter List</h1>
+
+    <hr />
+    <h2>Nazira Zahidee 3851118</h2>
+    <hr />
+
+<div id="listofemotions">
+  <details class="EmotionList">
+    <summary>How Do You Feel Today?</summary>
+  <details class="HappyList">
+  <summary>Happy</summary>
+  <p><button class="FilterSelector" id="Free" onclick='filterCategory()'>Free</button></p>
+  <p><button class="FilterSelector" id="Joyful" onclick='filterCategory()'>Joyful</button></p>
+  <P><button class="FilterSelector" id="Hopeful" onclick='filterCategory()'>Hopeful</button></P>
+  <p><button class="FilterSelector" id="Inspired" onclick='filterCategory()'>Inspired</button></p>
+  <details class="SadList">
+    <summary>Sad</summary>
+  <P><button class="FilterSelector" id="Inferior" onclick='filterCategory()'>Inferior</button></P>
+  <P><button class="FilterSelector" id="Empty" onclick='filterCategory()'>Empty</button></P>
+  <p><button class="FilterSelector" id="Grief" onclick='filterCategory()'>Grief</button></p>
+  <p><button class="FilterSelector" id="Powerlessness" onclick='filterCategory()'>Powerlessness</button></p>
+  <details class="FearfulList">
+<summary>Fearful</summary>
+  <p><button class="FilterSelector" id="Overwhelmed" onclick='filterCategory()'>Overwhelmed</button></p>
+  <p><button class="FilterSelector" id="Worried" onclick='filterCategory()'>Worried</button></p>
+  <P><button class="FilterSelector" id="Helpless" onclick='filterCategory()'>Helpless</button></P>
+  <p><button class="FilterSelector" id="Frightened" onclick='filterCategory()'>Frightened</button></p>
+  </details>
+</div>
+
+
+<a href="https://www.canva.com/photos/MADyRy_5ms8-woman-standing-outdoors/"></a>
+
+<section id="Free">
+  <div class="Emotion"
+  onclick="window.open(`https://www.canva.com/photos/MADyRy_5ms8-woman-standing-outdoors/`);"
+  data-author="HappyList"
+>
+
+<img class="Img" src="./images/free.jpg" alt="Free" />
+
+<p class="attribution">
+ "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MADyRy_5ms8-woman-standing-outdoors/">woman-standing-outdoors</a>" by 
+ <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+ <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=openverse">
+   CC BY-NC-SA 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+   <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+   <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+ </a>
+</p>
+
+<a class="Title" href=" https://www.canva.com/photos/MADyRy_5ms8-woman-standing-outdoors/" target="_blank">
+ Free
+</a>
+
+
+</div>
+
+</section>
+
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MADGv0zvW-Y-woman-holding-a-smiley-balloon/`);"
+           data-author="HappyList"
+      >
+
+        <img class="Img" src="./images/joyful.png" alt="Joyful" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MADGv0zvW-Y-woman-holding-a-smiley-balloon/">woman-holding-a-smiley-balloon</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nd-nc/2.0/jp/?ref=openverse">
+            CC BY-NC-ND 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p>
+
+        <a class="Title" href="https://www.canva.com/photos/MADGv0zvW-Y-woman-holding-a-smiley-balloon/" target="_blank">
+Joyful        </a>
+
+
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEvIIybrOM/`);"
+           data-author="HappyList"
+      >
+
+        <img class="Img" src="./images/hopeful.png" alt="Hopeful" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAEvIIybrOM/">untitled</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nd-nc/2.0/jp/?ref=openverse">
+            CC BY-NC-ND 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.seriouseats.com/crispy-enoki-and-onion-fritter-with-thai-curry-mayo-recipe" target="_blank">
+          Hopeful
+        </a>
+
+
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEPFkE_V_U-one-illuminated-in-a-row-of-lightbulbs/`);"
+           data-author="HappyList"
+      >
+
+        <img class="Img" src="./images/inspired.png" alt="Inspired" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAEPFkE_V_U-one-illuminated-in-a-row-of-lightbulbs/">one-illuminated-in-a-row-of-lightbulbs</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse">
+            CC BY-NC 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.maangchi.com/recipe/jjinppang" target="_blank">
+Inspired        </a>
+
+        
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MADQ5Dcd2qY-seagulls-on-white-background/`);"
+           data-author="SadList"
+      >
+
+        <img class="Img" src="./images/inferior.png" alt="Inferior" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MADQ5Dcd2qY-seagulls-on-white-background/">seagulls-on-white-background</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">
+            CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.seriouseats.com/the-food-lab-best-chocolate-chip-cookie-recipe" target="_blank">
+Inferior        </a>
+
+
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEbmRsvA5c/`);"
+           data-author="SadList"
+      >
+
+        <img class="Img" src="./images/empty.png" alt="Empty" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAEbmRsvA5c/">untitled</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=openverse">
+            CC BY-NC-SA 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.canva.com/photos/MAEbmRsvA5c/" target="_blank">
+Empty        </a>
+
+        
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEaOO2HgF4-people-sitting-on-the-bench/`);"
+           data-author="SadList"
+      >
+
+        <img class="Img" src="./images/grief.png" alt="Grief" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.patreon.com/posts/recipe-hands-off-60369279">people-sitting-on-the-bench</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nd/2.0/?ref=openverse">
+            CC BY-ND 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.canva.com/photos/MAEaOO2HgF4-people-sitting-on-the-bench/" target="_blank">
+Grief        </a>
+
+       
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEVkowW2sA-woman-in-white-robe-sitting-on-bed/`);"
+           data-author="SadList"
+      >
+
+        <img class="Img" src="./images/powerlessness.png" alt="Powerlessness" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAEVkowW2sA-woman-in-white-robe-sitting-on-bed/">woman-in-white-robe-sitting-on-bed</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is marked with 
+          <a target="_blank" rel="noopener noreferrer" href="http://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=openverse">
+            CC0 1.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p>
+
+        <a class="Title" href="https://www.canva.com/photos/MAEVkowW2sA-woman-in-white-robe-sitting-on-bed/" target="_blank">
+Powerlessness        </a>
+
+       
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEV5MpzaA0-young-businessman-at-computer-covering-his-face/`);"
+           data-author="FearfulList"
+      >
+
+        <img class="Img" src="./images/overwhelmed.png" alt="Overwhelmed" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAEV5MpzaA0-young-businessman-at-computer-covering-his-face/">young-businessman-at-computer-covering-his-face</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">
+            CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.canva.com/photos/MAEV5MpzaA0-young-businessman-at-computer-covering-his-face/" target="_blank">
+Overwhelmed        </a>
+
+
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAD1uEgKJeQ-man-in-brown-suit-jacket-sitting-on-white-sofa/`);"
+           data-author="FearfulList"
+      >
+
+        <img class="Img" src="./images/worried.png" alt="Worried" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAD1uEgKJeQ-man-in-brown-suit-jacket-sitting-on-white-sofa/">man-in-brown-suit-jacket-sitting-on-white-sofa</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0?ref=openverse">
+            CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.canva.com/photos/MAD1uEgKJeQ-man-in-brown-suit-jacket-sitting-on-white-sofa/" target="_blank">
+Worried        </a>
+
+        
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAEcqzLcH1A-a-woman-need-help/`);"
+           data-author="FearfulList"
+      >
+
+        <img class="Img" src="./images/helpless.png" alt="Helpless" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAEcqzLcH1A-a-woman-need-help/">a-woman-need-help</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">
+            CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.canva.com/photos/MAEcqzLcH1A-a-woman-need-help/" target="_blank">
+Helpless        </a>
+
+        
+      </div>
+
+      <div class="Emotion"
+           onclick="window.open(`https://www.canva.com/photos/MAD3hfGXoBI-woman-in-gray-tank-top-covering-her-face-with-her-hand/`);"
+           data-author="FearfulList"
+      >
+
+        <img class="Img" src="./images/frightened.png" alt="Frightened" />
+
+        <p class="attribution">
+          "<a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/photos/MAD3hfGXoBI-woman-in-gray-tank-top-covering-her-face-with-her-hand/">woman-in-gray-tank-top-covering-her-face-with-her-hand</a>" by 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/">canva.com</a> is licensed under 
+          <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nd-nc/2.0/jp/?ref=openverse">
+            CC BY-NC-ND 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img>
+          </a>
+        </p> 
+
+        <a class="Title" href="https://www.canva.com/photos/MAD3hfGXoBI-woman-in-gray-tank-top-covering-her-face-with-her-hand/" target="_blank">
+Frightened        </a>
+
+        
+      </div>
+ 
+
+    </section>
+
+  </body>
+
+</html>
+*{
+  box-sizing: border-box;
+  background-origin: border-box;
+  margin: 0;
+}
+
+/* Basis for colour palette comes from 1bit Monitor Glow Palette by Polyducks */
+/* https://lospec.com/palette-list/1bit-monitor-glow */
+
+:root{
+  --col-01:#534340;
+  --col-02:#F4FCD9;
+  --col-03:#BB9981;
+  --col-04:#8da563;
+}
+
+body{
+  background-color: var(--col-01);
+  color: var(--col-02);
+  padding: 2vw;
+}
+
+a {
+  color: var(--col-04);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--col-03);
+  text-decoration: underline;
+}
+
+hr {
+  margin-bottom: 2vh;
+}
+
+#list-filter-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.EmotionList{
+  display: flex;
+}
+
+.HappyList{
+  display: flex;
+}
+
+.SadList{
+  display: flex;
+}
+
+.FearfulList{
+  display: flex;
+}
+
+/* this is the filter category heading */
+summary {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.FilterSelector {
+  font-size: 3rem;
+  background-color: transparent;
+  color: var(--col-02);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+.FilterSelector:hover {
+  color: var(--col-03);
+}
+.FilterSelector:active {
+  color: var(--col-03);
+}
+.ActiveCategory {
+  background-color: var(--col-02);
+  color: var(--col-01); 
+}
+
+
+#recipe-list-wrapper{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.Emotion{
+  height: 30rem;
+  padding: 1rem;
+  border: solid var(--col-02) 2px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* .Emotion:hover{
+  border: dotted var(--col-02) 2px;
+  cursor: pointer;
+} */
+.Img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Title{
+  font-size: 4rem;
+}
+.MajorEmotion{
+  font-size: 1.5rem;
+}
+
+
+/* for screens over 768px wide */
+@media all and (min-width: 768px) {
+  
+  hr {
+    margin-bottom: 2vw;
+  }
+
+  #list-filter-wrapper{
+    flex-direction: row;
+  }
+
+  .FilterSelector {
+    text-align: unset;
+    width: unset;
+  }
+  
+}
